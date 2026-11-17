@@ -1,0 +1,6 @@
+title: The Loud Standard
+description: Plain-language notes on cannabis for Canadian adults: strains, gear, and how-tos.
+author: The Loud Standard
+markdown: kramdown
+exclude:
+  - README.md

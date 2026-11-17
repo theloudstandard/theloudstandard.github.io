@@ -1,0 +1,25 @@
+:root {
+  --bg: #f4efe6;
+  --ink: #1c1a17;
+  --muted: #5c574e;
+  --accent: #2c4a3c;
+  --rule: #d7d0c3;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  line-height: 1.55;
+  font-size: 1.125rem;
+}
+header, main, footer { max-width: 40rem; margin: 0 auto; padding: 0 1.25rem; }
+header { padding-top: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
+.site { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+.tag { margin: 0.4rem 0 0; color: var(--muted); font-size: 0.95rem; }
+h1 { font-size: 2rem; line-height: 1.2; font-weight: 700; margin: 2rem 0 1rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 0.7rem; color: var(--accent); }
+p { margin: 0 0 1rem; }
+main { padding-top: 0.5rem; padding-bottom: 3rem; }
+footer { border-top: 1px solid var(--rule); padding: 1.25rem 1.25rem 3rem; color: var(--muted); font-size: 0.95rem; }
